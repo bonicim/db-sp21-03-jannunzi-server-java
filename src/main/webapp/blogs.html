@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Blogs</h1>
+    <ul>
+        <li>
+            <a href="http://127.0.0.1:8080/find/all/blogs">
+                Find All Blogs
+            </a>
+        </li>
+        <li>
+            <a href="http://127.0.0.1:8080/find/blog/23">
+                Find Blog 23
+            </a>
+        </li>
+        <li>
+            <form action="http://127.0.0.1:8080/find/blog">
+                <input name="blogId"/>
+                <button type="submit">Find Blog</button>
+            </form>
+        </li>
+        <li>
+            <form action="http://127.0.0.1:8080/delete/blog">
+                <input name="blogId"/>
+                <button type="submit">Delete Blog</button>
+            </form>
+        </li>
+        <li>
+            <form action="http://127.0.0.1:8080/create/blog">
+                <input name="name"/>
+                <input name="topic"/>
+                <button type="submit">Create Blog</button>
+            </form>
+        </li>
+        <li>
+            <form action="http://127.0.0.1:8080/update/blog">
+                <input name="id"/>
+                <input name="name"/>
+                <button type="submit">Update Blog</button>
+            </form>
+        </li>
+    </ul>
+</body>
+</html>
